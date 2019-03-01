@@ -1,0 +1,60 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<html>
+
+<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Escape Room</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+
+<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body>
+	
+
+		<div class="column blue" id="blue">
+			<div class="column red" id="red">
+				<div class="column yellow" id="yellow">
+					<div class="center-content">
+						<img src="images/bat1.png" id="bat1" class="restrict-img-size" onClick="nextImage(this)" />
+					</div>
+				</div>
+				<div class="column yellowtwo" id="yellowtwo">
+					<img src="images/bat2.png" id="bat2" class="restrict-img-size" onClick="nextImagetwo(this)" />
+				</div>
+				<div class="column yellowthree" id="yellowthree">
+					<img src="images/newbat.png" id="bat3" class="restrict-img-size" onClick="nextImagethree(this)" />
+				</div>
+				<div class="column yellowfour" id="yellowfour">
+					<img src="images/bat4.png" id="bat4" class="restrict-img-size" onClick="nextImagefour(this)"/>
+				</div>
+			</div>
+			<div class="column green" id="green">
+				<div class="column purple" id="purple">
+					<div class="center-content">
+						<img src="images/zombie.jpg" id="bzombie" class="restrict-img-size" />
+					</div>
+				</div>
+				<div class="column purple" id="purple2">
+					<img src="images/key.png" id="bat4" class="restrict-img-size" onClick=""/>
+				</div>
+				<div class="column purple" id="purple3">
+					<div class="center-content">
+						<center><img src="images/zombie.jpg" id="bzombie" class="restrict-img-size" /></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+		
+		</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+
+</html>
